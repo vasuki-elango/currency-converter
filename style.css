@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    border: none;
+    outline: none;
+}
+body{
+   background-color:#cd86c9;
+}
+.container{
+    width: 90%;
+    max-width: 25rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    border-radius: 14px;
+}
+.title{
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+label{
+    display: block;
+    font-weight: 600;
+}
+input[type="number"]{
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 1.2rem;
+    margin-top: 12px;
+}
+
+input[type="number"]:focus{
+    border-color: blueviolet;
+    color: #1b1a1b;
+}
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+select{
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    background-color: #a662e6;
+    color: white;
+}
+select option{
+    background-color: white;
+    color: #1b1a1b;
+}  
+button{
+    width: 100%;
+    background-color: #a662e6;
+    padding: 12px;
+    color: rgb(251, 248, 248);
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 0.5em;
+    margin-top:25px;
+    cursor: pointer;
+}
+#result{
+    width: 100%;
+    height: 40px;
+    background-color: #d7bfee;
+    text-align: center;
+    border-radius: 0.5em;
+    color: #1b1a1b;
+    font-weight: 300;
+    padding: 10px;
+    border: none;
+    margin-top:10px;
+    cursor: default;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+}
